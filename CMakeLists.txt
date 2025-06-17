@@ -7,4 +7,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
 
 add_subdirectory(third_party/abseil-cpp)
 add_subdirectory(third_party/spdlog)
+add_subdirectory(third_party/tomlplusplus)
 add_subdirectory(src)

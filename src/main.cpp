@@ -1,2 +1,6 @@
 #include "spdlog/spdlog.h"
-int main(int argc, char** argv) { return 0; }
+#include "toml++/toml.hpp"
+int main(int argc, char** argv) {
+  // TODO:(LiJunhui) parse toml config file
+  return 0;
+}
